@@ -14,6 +14,8 @@ class LifeCycleOwnerActivity : AppCompatActivity() {
      * a variavel lifecycle é referente ao lifecycle do contexto, nesse caso a activity. Sendo
      * assim, estamos dizendo que nosso observer vai responder as mudanças do ciclo de vida da
      * activity em questão.
+     *
+     * viewLifecycleOwner -> lifecycle owner para fragments
      */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
