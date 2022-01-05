@@ -2,4 +2,5 @@
     <string name="app_name">AndroidCertificationContent</string>
     <string name="title_lifecycle_module">Lifecycle module</string>
     <string name="summary_activity_lifecycle">This module refer to Activity Lifecycle</string>
+    <string name="lifecycle_observer_module">Lifecycle Observer</string>
 </resources>
