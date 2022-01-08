@@ -22,4 +22,12 @@
         android:text="@string/lifecycle_observer_module"
         app:layout_constraintStart_toEndOf="@+id/lifecycle_module"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/widgets_module"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/widgets_module"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lifecycle_module" />
 </androidx.constraintlayout.widget.ConstraintLayout>
