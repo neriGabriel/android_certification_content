@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import com.example.androidcertificationcontent.ActivityLifeCycle.ActivityLifeCycle
 import com.example.androidcertificationcontent.BasicWidgets.BasicWidgetsActivity
+import com.example.androidcertificationcontent.Coroutines.CoroutinesActivity
 import com.example.androidcertificationcontent.LifecycleObserver.LifeCycleOwnerActivity
 
 class MainActivity : AppCompatActivity() {
@@ -26,6 +27,11 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.widgets_module).setOnClickListener {
             var basicWidgetsIntent = Intent(applicationContext, BasicWidgetsActivity::class.java)
             startActivity(basicWidgetsIntent)
+        }
+
+        findViewById<Button>(R.id.coroutines_module).setOnClickListener {
+            var coroutinesModuleIntent = Intent(applicationContext, CoroutinesActivity::class.java)
+            startActivity(coroutinesModuleIntent)
         }
     }
 }

@@ -30,4 +30,13 @@
         android:text="@string/widgets_module"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lifecycle_module" />
+
+    <Button
+        android:id="@+id/coroutines_module"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/title_coroutines_module"
+        app:layout_constraintStart_toEndOf="@+id/widgets_module"
+        app:layout_constraintTop_toBottomOf="@+id/lifecycle_module" />
 </androidx.constraintlayout.widget.ConstraintLayout>

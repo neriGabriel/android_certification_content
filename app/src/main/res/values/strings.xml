@@ -7,4 +7,5 @@
     <string name="title_basic_of_widgets">Basic of Widgets</string>
     <string name="image_view_content_description">This is an image with android icon</string>
     <string name="summary_toast_basic_widgets">Congrats, you just activated the onClick method from %1$s</string>
+    <string name="title_coroutines_module">Coroutines module</string>
 </resources>
