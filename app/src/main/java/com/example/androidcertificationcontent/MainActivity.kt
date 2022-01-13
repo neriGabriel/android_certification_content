@@ -8,6 +8,7 @@ import com.example.androidcertificationcontent.ActivityLifeCycle.ActivityLifeCyc
 import com.example.androidcertificationcontent.BasicWidgets.BasicWidgetsActivity
 import com.example.androidcertificationcontent.Coroutines.CoroutinesActivity
 import com.example.androidcertificationcontent.LifecycleObserver.LifeCycleOwnerActivity
+import com.example.androidcertificationcontent.ViewModel.ViewModelActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,6 +33,11 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.coroutines_module).setOnClickListener {
             var coroutinesModuleIntent = Intent(applicationContext, CoroutinesActivity::class.java)
             startActivity(coroutinesModuleIntent)
+        }
+
+        findViewById<Button>(R.id.viewmodel_module).setOnClickListener {
+            var viewModelModuleIntent = Intent(applicationContext, ViewModelActivity::class.java)
+            startActivity(viewModelModuleIntent)
         }
     }
 }

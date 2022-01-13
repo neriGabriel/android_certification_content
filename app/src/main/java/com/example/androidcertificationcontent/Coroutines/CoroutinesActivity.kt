@@ -6,6 +6,15 @@ import android.util.Log
 import com.example.androidcertificationcontent.R
 import kotlinx.coroutines.*
 import java.lang.Exception
+/***
+ * Coroutine nada mais é do que um escopo onde funções suspend (funções que precisam ser
+ * executadas em background) são executadas sem bloquear a main thread.
+ *
+ * Para iniciar uma coroutine podemos fazer isso de 3 maneiras:
+ * 1. <scope>.launch (com contexto ou sem contexto)
+ * 2. async
+ * 3. runBlocking
+ * */
 
 class CoroutinesActivity : AppCompatActivity() {
 
@@ -15,17 +24,6 @@ class CoroutinesActivity : AppCompatActivity() {
         setContentView(R.layout.activity_coroutines)
         mStuffClass = StuffClass()
     }
-
-    /***
-     * Coroutine nada mais é do que um escopo onde funções suspend (funções que precisam ser
-     * executadas em background) são executadas sem bloquear a main thread.
-     *
-     * Para iniciar uma coroutine podemos fazer isso de 3 maneiras:
-     * 1. <scope>.launch (com contexto ou sem contexto)
-     * 2. async
-     * 3. runBlocking
-     * */
-
     /***
      * Nas viewModels podemos fazer do seguinte jeito:
      * suspend fun getUser(): User = viewModelScope{

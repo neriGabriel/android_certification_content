@@ -39,4 +39,12 @@
         android:text="@string/title_coroutines_module"
         app:layout_constraintStart_toEndOf="@+id/widgets_module"
         app:layout_constraintTop_toBottomOf="@+id/lifecycle_module" />
+
+    <Button
+        android:id="@+id/viewmodel_module"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_view_model_module"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/widgets_module" />
 </androidx.constraintlayout.widget.ConstraintLayout>

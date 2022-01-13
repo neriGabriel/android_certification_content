@@ -8,4 +8,8 @@
     <string name="image_view_content_description">This is an image with android icon</string>
     <string name="summary_toast_basic_widgets">Congrats, you just activated the onClick method from %1$s</string>
     <string name="title_coroutines_module">Coroutines module</string>
+    <string name="title_principal_team">TEAM A</string>
+    <string name="title_secondary_team">TEAM B</string>
+    <string name="title_add_point">+ 1 Point</string>
+    <string name="title_view_model_module">View Model Module</string>
 </resources>

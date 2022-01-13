@@ -1,3 +1,4 @@
 No Android, as corrotinas ajudam a gerenciar tarefas de longa duração que podem bloquear a linha de
 execução principal e fazer com que seu app pare de responder. Mais de 50% dos desenvolvedores
 profissionais que usam corrotinas notaram um aumento na produtividade.
+
